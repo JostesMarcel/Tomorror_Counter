@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Europa;
+    src: url(fonts/EuropaNuova-Regular.ttf);
+}
+@font-face {
+    font-family: Europa_Bold;
+    src: url(fonts/EuropaNuova-Bold.ttf);
+}
+@font-face {
+    font-family: Europa_ExtraBold;
+    src: url(fonts/EuropaNuova-ExtraBold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #000;
+}
+.header{
+    margin: 0 auto;
+    font-family: Europa;
+    width:75%;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 25px 0;
+}
+
+#time-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 50px;
+}
+
+h2{
+    font-size: 20px;
+    font-family: Europa_ExtraBold, sans-serif;
+}
+
+
+.a {
+    animation: pulse 1s linear infinite;
+}
+@-webkit-keyframes "pulse" {
+0% {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+50% {
+-webkit-transform: scale(0.8);
+transform: scale(0.8);
+}
+100% {
+ -webkit-transform: scale(1);
+transform: scale(1);
+}
+}
